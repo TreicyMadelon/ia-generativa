@@ -224,20 +224,20 @@ TEMPLATES = [
     (
         ["oi", "olá", "oi tudo bem", "olá, tudo bem?", "bom dia", "boa tarde",
          "boa noite", "hey", "salve", "eai", "e aí", "opa"],
-        "Olá! 📚 Sou o ChatLitera, seu guia sobre feiras literárias brasileiras. "
+        "Olá! Sou o ChatLitera, seu guia sobre feiras literárias brasileiras. "
         "Posso ajudar com datas, locais, programação, ingressos e muito mais. O que você quer saber?",
     ),
     # -- Despedidas --
     (
         ["tchau", "até logo", "até mais", "obrigado tchau", "valeu, tchau",
          "foi ótimo obrigado", "até", "xau", "flw", "falou"],
-        "Até logo! 📖 Espero ter ajudado. Continue participando das feiras literárias do Brasil!",
+        "Até logo! Espero ter ajudado. Continue participando das feiras literárias do Brasil!",
     ),
     # -- Agradecimentos --
     (
         ["obrigado", "obrigada", "valeu", "muito obrigado", "thanks",
          "grato", "grata", "agradeço"],
-        "Fico feliz em ajudar! 😊 Se tiver mais dúvidas sobre feiras literárias, é só perguntar.",
+        "Fico feliz em ajudar! Se tiver mais dúvidas sobre feiras literárias, é só perguntar.",
     ),
 ]
 
@@ -256,7 +256,7 @@ DYNAMIC_TEMPLATES = [
             "quando ocorre a {nome}?",
         ],
         "A {nome} geralmente acontece em {mes}. "
-        "Para as datas exatas desta edição, consulte {site}. 📅",
+        "Para as datas exatas desta edição, consulte {site}. ",
     ),
     # Local / Cidade
     (
@@ -270,7 +270,7 @@ DYNAMIC_TEMPLATES = [
             "a {sigla} é em qual cidade?",
         ],
         "A {nome} é realizada em {local}. "
-        "Ótima oportunidade para conhecer a cidade também! 📍",
+        "Ótima oportunidade para conhecer a cidade também! ",
     ),
     # Endereço completo
     (
@@ -285,7 +285,7 @@ DYNAMIC_TEMPLATES = [
             "qual o local exato da {sigla}?",
         ],
         "O endereço da {nome} é: {endereco}. "
-        "Para informações de transporte e estacionamento, consulte {site}. 🗺️",
+        "Para informações de transporte e estacionamento, consulte {site}. ",
     ),
     # O que é
     (
@@ -299,7 +299,7 @@ DYNAMIC_TEMPLATES = [
             "fala sobre a {sigla}",
         ],
         "A {nome} é {descricao}. "
-        "Acesse {site} para mais informações. 📚",
+        "Acesse {site} para mais informações. ",
     ),
     # Ingresso
     (
@@ -314,7 +314,7 @@ DYNAMIC_TEMPLATES = [
         ],
         "Os preços dos ingressos da {nome} variam a cada edição. "
         "Em geral, há ingressos simbólicos (a partir de R$ 20,00) e costumam existir dias ou atividades de entrada gratuita. "
-        "Verifique os valores atuais em {site}. 🎟️",
+        "Verifique os valores atuais em {site}. ",
     ),
     # Programação
     (
@@ -329,7 +329,7 @@ DYNAMIC_TEMPLATES = [
         ],
         "A {nome} costuma oferecer: bate-papos com autores, mesas de debate, "
         "lançamentos de livros, oficinas literárias e espaços para crianças. "
-        "A programação completa é divulgada em {site} próximo ao evento. 🎤",
+        "A programação completa é divulgada em {site} próximo ao evento. ",
     ),
     # Autores CONVIDADOS (já estiveram no evento)
     (
@@ -344,7 +344,7 @@ DYNAMIC_TEMPLATES = [
         ],
         "A {nome} já recebeu como convidados nomes como {conv1}, {conv2} e {conv3}, "
         "entre outros autores brasileiros e internacionais. "
-        "Os convidados de cada nova edição são anunciados em {site}. ✍️",
+        "Os convidados de cada nova edição são anunciados em {site}. ",
     ),
     # Autores HOMENAGEADOS
     (
@@ -358,7 +358,7 @@ DYNAMIC_TEMPLATES = [
             "quem é o homenageado da {sigla}?",
         ],
         "A {nome} já prestou homenagem a grandes nomes da literatura, como {hom1}, {hom2} e {hom3}. "
-        "O autor ou autora homenageado(a) de cada edição é anunciado(a) em {site}. 🏆",
+        "O autor ou autora homenageado(a) de cada edição é anunciado(a) em {site}. ",
     ),
     # Importância
     (
@@ -371,7 +371,7 @@ DYNAMIC_TEMPLATES = [
         ],
         "A {nome} é fundamental para fomentar a leitura e a cultura no Brasil, "
         "conectando autores, editoras e leitores de todo o país. "
-        "É uma experiência enriquecedora para qualquer amante da literatura! 🌟",
+        "É uma experiência enriquecedora para qualquer amante da literatura! ",
     ),
 ]
 
@@ -383,17 +383,17 @@ GENERAL_QA = [
         "Bienal do Rio, FLIP (Paraty), FLIC (Belo Horizonte), Festa Literária POA, "
         "Feira do Livro de Porto Alegre, FLOR (São Paulo), Bienal Bahia, Bienal PE (Recife), "
         "Feira Unesp, Flipoços (Poços de Caldas) e Festival Literário Catarinense. "
-        "Cada uma tem sua identidade única! 📚",
+        "Cada uma tem sua identidade única! ",
     ),
     (
         "qual a maior feira literária do Brasil?",
         "A Bienal Internacional do Livro de São Paulo é considerada a maior feira literária do Brasil "
-        "e uma das maiores da América Latina, recebendo milhões de visitantes por edição. 🏆",
+        "e uma das maiores da América Latina, recebendo milhões de visitantes por edição. ",
     ),
     (
         "qual a mais antiga feira literária do Brasil?",
         "A Feira do Livro de Porto Alegre, realizada desde 1955 na Praça da Alfândega, "
-        "é a mais antiga feira literária do Brasil. Uma tradição de mais de 60 anos! 🎂",
+        "é a mais antiga feira literária do Brasil. Uma tradição de mais de 60 anos!",
     ),
     (
         "tem feira literária perto de mim?",
@@ -404,57 +404,57 @@ GENERAL_QA = [
         "quais feiras literárias têm atividades para crianças?",
         "A maioria das grandes feiras tem espaços dedicados ao público infantil! "
         "Bienal do Livro SP, Bienal Rio e FLIP costumam ter programação especial para crianças, "
-        "com contação de histórias e oficinas criativas. 🧒📖",
+        "com contação de histórias e oficinas criativas. ",
     ),
     (
         "posso comprar livros nas feiras literárias?",
         "Sim! As feiras literárias são ótimos locais para comprar livros, geralmente com descontos "
-        "e promoções especiais. Muitas editoras oferecem preços diferenciados durante os eventos. 🛒",
+        "e promoções especiais. Muitas editoras oferecem preços diferenciados durante os eventos. ",
     ),
     (
         "qual a diferença entre bienal e feira literária?",
         "A principal diferença é a frequência: 'bienal' significa que o evento ocorre a cada dois anos, "
         "enquanto 'feira' pode ser anual. No conteúdo, ambas vendem livros e promovem encontros culturais, "
-        "mas as bienais costumam ser maiores em escala. 📅",
+        "mas as bienais costumam ser maiores em escala. ",
     ),
     (
         "tem alguma feira literária em julho?",
         "Sim! Julho é um mês cheio de feiras literárias. A FLIP (Paraty) e a Bienal do Livro SP "
-        "costumam ocorrer nessa época. É uma ótima opção para as férias escolares! ☀️",
+        "costumam ocorrer nessa época. É uma ótima opção para as férias escolares! ",
     ),
     (
         "me recomende uma feira para iniciantes em literatura",
         "Para quem está começando, a Bienal Internacional do Livro de São Paulo é excelente: "
         "tem uma enorme variedade de títulos, preços acessíveis e programação para todos os gostos. "
-        "A Feira do Livro de Porto Alegre também é muito acolhedora! 💡",
+        "A Feira do Livro de Porto Alegre também é muito acolhedora! ",
     ),
     (
         "tem feira literária no nordeste?",
         "Sim! O Nordeste tem eventos literários de peso: a Bienal do Livro Bahia (Salvador) "
         "e a Bienal Internacional do Livro de Pernambuco (Recife) são os maiores. "
-        "A cena literária nordestina é rica e crescente! 🌵",
+        "A cena literária nordestina é rica e crescente! ",
     ),
     (
         "qual feira tem melhor programação musical?",
         "A FLIP de Paraty é famosa por combinar literatura com shows musicais e o charme da cidade histórica. "
-        "É uma mistura incrível de cultura que vai além dos livros! 🎵",
+        "É uma mistura incrível de cultura que vai além dos livros! ",
     ),
     (
         "feiras literárias são apenas para adultos?",
         "Não! As principais feiras têm programação para todas as idades. "
-        "Há sessões infantis, juvenis e adultas, tornando-as ótimas opções de passeio em família. 👨‍👩‍👧‍👦",
+        "Há sessões infantis, juvenis e adultas, tornando-as ótimas opções de passeio em família. ",
     ),
     (
         "como me inscrever em uma oficina de feira literária?",
         "As inscrições para oficinas costumam ser feitas pelo site oficial de cada feira, "
         "geralmente com vagas limitadas. Fique de olho nos sites com antecedência "
-        "pois as oficinas têm alta demanda! ✏️",
+        "pois as oficinas têm alta demanda! ",
     ),
     (
         "as feiras literárias são acessíveis para pessoas com deficiência?",
         "As grandes feiras, como a Bienal do Livro SP e a FLIP, têm se preocupado cada vez mais "
         "com acessibilidade, oferecendo rampas, intérpretes de Libras e materiais em Braille. "
-        "Consulte os sites oficiais para detalhes de cada edição. ♿",
+        "Consulte os sites oficiais para detalhes de cada edição. ",
     ),
 ]
 
@@ -468,13 +468,13 @@ _RESP_BIENAL_GENERICA = (
     "livrarias, autores e leitores para celebrar a leitura. "
     "No Brasil temos várias: Bienal de São Paulo, Bienal do Rio de Janeiro, "
     "Bienal Bahia (Salvador) e Bienal de Pernambuco (Recife). "
-    "Sobre qual delas você gostaria de saber mais? 📚"
+    "Sobre qual delas você gostaria de saber mais? "
 )
 
 _RESP_BIENAL_DATA_GENERICA = (
     "Temos várias Bienais do Livro no Brasil, cada uma com seu calendário próprio: "
     "São Paulo (julho), Rio de Janeiro (setembro), Bahia (outubro) e Pernambuco (outubro). "
-    "Sobre qual delas você quer saber a data exata? 📅"
+    "Sobre qual delas você quer saber a data exata? "
 )
 
 _RESP_BIENAL_LOCAL_GENERICA = (
@@ -482,7 +482,7 @@ _RESP_BIENAL_LOCAL_GENERICA = (
     "São Paulo (Pavilhão do Anhembi – Av. Olavo Fontoura, 1209), "
     "Rio de Janeiro (Riocentro – Av. Salvador Allende, 6555), "
     "Salvador/BA (Centro de Convenções da Bahia – Av. ACM, s/n) e "
-    "Recife/PE (Centro de Convenções de Pernambuco). Qual delas você quer conhecer? 📍"
+    "Recife/PE (Centro de Convenções de Pernambuco). Qual delas você quer conhecer? "
 )
 
 GENERIC_TYPE_QA = [
@@ -519,13 +519,13 @@ GENERIC_TYPE_QA = [
         "Um festival literário é um evento cultural dedicado à celebração da leitura e da literatura, "
         "reunindo autores, editoras, livreiros e leitores. Costumam incluir debates, lançamentos de livros, "
         "oficinas e atividades culturais. No Brasil se destacam: FLIP (Paraty), FLIC (BH), FLOR (SP), "
-        "Flipoços (Poços de Caldas) e Festival Literário Catarinense. 🎭",
+        "Flipoços (Poços de Caldas) e Festival Literário Catarinense. ",
     ),
     (
         "o que é um festival literário brasileiro?",
         "Os festivais literários brasileiros são eventos culturais que celebram a leitura e reúnem "
         "autores, editoras e leitores. Vão desde grandes bienais (SP, Rio, Bahia, Pernambuco) até "
-        "festivais intimistas como FLIP, FLIC e FLOR. Cada um tem sua identidade única! 🌟",
+        "festivais intimistas como FLIP, FLIC e FLOR. Cada um tem sua identidade única! ",
     ),
 
     # --- Conceito de feira literária ---
@@ -534,13 +534,13 @@ GENERIC_TYPE_QA = [
         "Uma feira literária é um espaço de encontro entre leitores, autores e editoras "
         "para vender, lançar e debater livros. Podem durar dias ou semanas, com programação "
         "cultural variada. As mais famosas no Brasil: Bienal SP, FLIP, FLIC, FLOR, "
-        "Bienal Bahia, Bienal PE e Feira do Livro de Porto Alegre. 📖",
+        "Bienal Bahia, Bienal PE e Feira do Livro de Porto Alegre. ",
     ),
     (
         "o que são feiras literárias?",
         "Feiras literárias são eventos culturais voltados para livros, leitura e literatura. "
         "Reúnem editoras, autores e leitores em um só lugar, com debates, lançamentos, oficinas e vendas. "
-        "No Brasil há feiras em todas as regiões do país! 📚",
+        "No Brasil há feiras em todas as regiões do país! ",
     ),
 ]
 
@@ -550,7 +550,7 @@ GENRE_QA = [
         f"você recomenda alguma feira para quem gosta de {genero}?",
         f"Para quem aprecia {genero}, a Bienal do Livro SP costuma ter a maior variedade de títulos "
         f"e lançamentos nesse estilo. A FLIP também tem mesas temáticas e debates sobre diferentes "
-        f"correntes literárias. Vale conferir a programação antes de ir! 📚",
+        f"correntes literárias. Vale conferir a programação antes de ir! ",
     )
     for genero in GENEROS
 ]
@@ -560,26 +560,26 @@ OUT_OF_SCOPE_QA = [
     (
         "qual o resultado do jogo de ontem?",
         "Desculpe, meu foco são as feiras literárias brasileiras! "
-        "Posso ajudar com datas, autores, ingressos e programação de eventos literários. 📚",
+        "Posso ajudar com datas, autores, ingressos e programação de eventos literários. ",
     ),
     (
         "quanto vale um dólar hoje?",
         "Isso foge do meu domínio! Sou especialista em feiras literárias do Brasil. "
-        "Posso ajudar com informações sobre Bienal, FLIP, FLIC e outros eventos. 📚",
+        "Posso ajudar com informações sobre Bienal, FLIP, FLIC e outros eventos. ",
     ),
     (
         "me recomende um restaurante",
         "Restaurantes não são a minha especialidade, mas feiras literárias sim! "
-        "Que tal saber mais sobre algum evento literário? 😄",
+        "Que tal saber mais sobre algum evento literário? ",
     ),
     (
         "como fazer um bolo de chocolate?",
         "Receitas estão fora do meu alcance, mas se você quiser, posso indicar "
-        "livros de culinária presentes nas feiras literárias! 📖",
+        "livros de culinária presentes nas feiras literárias! ",
     ),
     (
         "qual o melhor time de futebol do brasil?",
-        "Isso é muito controverso e foge do meu domínio! 😄 "
+        "Isso é muito controverso e foge do meu domínio! "
         "Mas posso dizer com certeza qual é o melhor evento literário para você visitar. O que acha?",
     ),
 ]
@@ -589,11 +589,11 @@ FUNNEL_QA = [
     (
         "me fala mais sobre feiras literárias",
         "Claro! Sobre qual aspecto você quer saber mais?\n"
-        "📅 Datas e edições\n"
-        "📍 Locais e cidades\n"
-        "🎤 Autores participantes\n"
-        "🎟️ Ingressos e preços\n"
-        "📋 Programação e atividades",
+        "Datas e edições\n"
+        "Locais e cidades\n"
+        "Autores participantes\n"
+        "Ingressos e preços\n"
+        "Programação e atividades",
     ),
     (
         "quero informações sobre feiras",
@@ -623,78 +623,78 @@ ALIAS_QA = [
     (
         "qual o endereço da Bienal do Livro do Rio?",
         f"O endereço da {_BIENAL_RIO['nome']} é: {_BIENAL_RIO['endereco']}. "
-        f"Para informações de transporte e estacionamento, consulte {_BIENAL_RIO['site']}. 🗺️",
+        f"Para informações de transporte e estacionamento, consulte {_BIENAL_RIO['site']}. ",
     ),
     (
         "qual o endereço da Bienal do Livro do Rio de Janeiro?",
         f"O endereço da {_BIENAL_RIO['nome']} é: {_BIENAL_RIO['endereco']}. "
-        f"Para informações de transporte e estacionamento, consulte {_BIENAL_RIO['site']}. 🗺️",
+        f"Para informações de transporte e estacionamento, consulte {_BIENAL_RIO['site']}. ",
     ),
     (
         "onde fica a Bienal do Livro do Rio?",
         f"A {_BIENAL_RIO['nome']} é realizada em {_BIENAL_RIO['local']}. "
-        f"O endereço completo é: {_BIENAL_RIO['endereco']}. 📍",
+        f"O endereço completo é: {_BIENAL_RIO['endereco']}. ",
     ),
     (
         "onde fica a Bienal do Livro do Rio de Janeiro?",
         f"A {_BIENAL_RIO['nome']} é realizada em {_BIENAL_RIO['local']}. "
-        f"O endereço completo é: {_BIENAL_RIO['endereco']}. 📍",
+        f"O endereço completo é: {_BIENAL_RIO['endereco']}. ",
     ),
     (
         "onde é a Bienal do Rio de Janeiro?",
         f"A {_BIENAL_RIO['nome']} acontece em {_BIENAL_RIO['local']} "
-        f"({_BIENAL_RIO['endereco']}). 📍",
+        f"({_BIENAL_RIO['endereco']}). ",
     ),
     (
         "onde fica a Bienal do Rio de Janeiro?",
         f"A {_BIENAL_RIO['nome']} é realizada em {_BIENAL_RIO['local']}. "
-        f"Endereço: {_BIENAL_RIO['endereco']}. 📍",
+        f"Endereço: {_BIENAL_RIO['endereco']}. ",
     ),
     (
         "quando é a Bienal do Livro do Rio?",
         f"A {_BIENAL_RIO['nome']} geralmente acontece em {_BIENAL_RIO['mes']}. "
-        f"Consulte {_BIENAL_RIO['site']} para as datas exatas. 📅",
+        f"Consulte {_BIENAL_RIO['site']} para as datas exatas. ",
     ),
     (
         "quando é a Bienal do Livro do Rio de Janeiro?",
         f"A {_BIENAL_RIO['nome']} geralmente acontece em {_BIENAL_RIO['mes']}. "
-        f"Consulte {_BIENAL_RIO['site']} para as datas exatas. 📅",
+        f"Consulte {_BIENAL_RIO['site']} para as datas exatas. ",
     ),
     (
         "o que é a Bienal do Livro do Rio?",
         f"A {_BIENAL_RIO['nome']} é {_BIENAL_RIO['descricao']}. "
         f"Acontece em {_BIENAL_RIO['local']} no mês de {_BIENAL_RIO['mes']}. "
-        f"Acesse {_BIENAL_RIO['site']} para mais informações. 📚",
+        f"Acesse {_BIENAL_RIO['site']} para mais informações. ",
     ),
     (
         "quais autores já foram convidados para a Bienal do Livro do Rio?",
         f"A {_BIENAL_RIO['nome']} já recebeu como convidados nomes como "
         f"{_BIENAL_RIO['convidados_exemplos'][0]}, {_BIENAL_RIO['convidados_exemplos'][1]} e "
         f"{_BIENAL_RIO['convidados_exemplos'][2]}, entre outros. "
-        f"Os convidados de cada edição são anunciados em {_BIENAL_RIO['site']}. ✍️",
+        f"Os convidados de cada edição são anunciados em {_BIENAL_RIO['site']}. ",
     ),
     (
         "quem já foi homenageado na Bienal do Livro do Rio?",
         f"A {_BIENAL_RIO['nome']} já prestou homenagem a autores como "
         f"{_BIENAL_RIO['homenageados'][0]}, {_BIENAL_RIO['homenageados'][1]} e "
         f"{_BIENAL_RIO['homenageados'][2]}. "
-        f"O homenageado de cada edição é anunciado em {_BIENAL_RIO['site']}. 🏆",
+        f"O homenageado de cada edição é anunciado em {_BIENAL_RIO['site']}. ",
     ),
     # --- Bienal do Livro de SP (variações com "de SP" / "São Paulo") ---
     (
         "onde fica a Bienal do Livro de São Paulo?",
         f"A {_BIENAL_SP['nome']} acontece no {_BIENAL_SP['local']}. "
-        f"Endereço: {_BIENAL_SP['endereco']}. 📍",
+        f"Endereço: {_BIENAL_SP['endereco']}. ",
     ),
     (
         "qual o endereço da Bienal do Livro de São Paulo?",
         f"O endereço da {_BIENAL_SP['nome']} é: {_BIENAL_SP['endereco']}. "
-        f"Para informações de transporte e estacionamento, consulte {_BIENAL_SP['site']}. 🗺️",
+        f"Para informações de transporte e estacionamento, consulte {_BIENAL_SP['site']}. ",
     ),
     (
         "quando é a Bienal do Livro de São Paulo?",
         f"A {_BIENAL_SP['nome']} geralmente acontece em {_BIENAL_SP['mes']}. "
-        f"Consulte {_BIENAL_SP['site']} para as datas exatas. 📅",
+        f"Consulte {_BIENAL_SP['site']} para as datas exatas. ",
     ),
 ]
 
@@ -773,7 +773,7 @@ def gerar_dataset(output_path: str = "data/feiras_literarias.csv", n_target: int
             (
                 f"tem como me informar sobre a {feira['sigla']}?",
                 f"Claro! A {feira['nome']} acontece em {feira['mes']}, em {feira['local']}. "
-                f"Para mais detalhes, acesse {feira['site']}. 📚",
+                f"Para mais detalhes, acesse {feira['site']}. ",
             ),
             (
                 f"quero saber tudo sobre a {feira['sigla']}",
@@ -784,17 +784,17 @@ def gerar_dataset(output_path: str = "data/feiras_literarias.csv", n_target: int
             (
                 f"vale a pena ir na {feira['sigla']}?",
                 f"Com certeza! A {feira['nome']} é {feira['descricao']}. "
-                f"Confira a programação em {feira['site']} e planeje sua visita! 🌟",
+                f"Confira a programação em {feira['site']} e planeje sua visita! ",
             ),
             (
                 f"qual o endereço da {feira['sigla']}?",
                 f"A {feira['nome']} acontece em: {feira['endereco']}. "
-                f"Mais detalhes logísticos em {feira['site']}. 🗺️",
+                f"Mais detalhes logísticos em {feira['site']}. ",
             ),
             (
                 f"quais autores já foram convidados para a {feira['sigla']}?",
                 f"A {feira['nome']} já recebeu como convidados nomes como {conv[0]} e {conv[1]}, "
-                f"entre outros autores. Os convidados de cada nova edição são anunciados em {feira['site']}. ✍️",
+                f"entre outros autores. Os convidados de cada nova edição são anunciados em {feira['site']}. ",
             ),
         ])
         linhas.append(variacao)
@@ -807,7 +807,7 @@ def gerar_dataset(output_path: str = "data/feiras_literarias.csv", n_target: int
         writer.writerow(["user_input", "response"])
         writer.writerows(linhas)
 
-    print(f"✅ Dataset gerado com {len(linhas)} linhas em '{output_path}'.")
+    print(f"Dataset gerado com {len(linhas)} linhas em '{output_path}'.")
 
 
 if __name__ == "__main__":
