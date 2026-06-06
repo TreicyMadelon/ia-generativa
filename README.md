@@ -110,15 +110,6 @@ Score ≥ 0.2?
 
 ---
 
-## Personalização
-
-- **Novas entidades**: adicione entradas em `MULTI_WORD_ENTITIES` no arquivo `src/preprocess.py`.
-- **Mais dados**: edite os templates em `src/generate_dataset.py` e rode-o novamente.
-- **Ajuste de sensibilidade**: altere o parâmetro `similarity_threshold` em `main.py` (valores maiores = mais restritivo).
-- **Mais feiras**: adicione entradas na lista `FEIRAS` em `generate_dataset.py`.
-
----
-
 ## Exemplo de Uso
 
 ```
