@@ -54,13 +54,13 @@ class ChatLitera:
             4. Se não -> mensagem de afunilamento pedindo mais detalhes.
         """
         if not user_message.strip():
-            return "Por favor, envie uma mensagem para que eu possa ajudar! 😊"
+            return "Por favor, envie uma mensagem para que eu possa ajudar!"
 
         if self._is_out_of_scope(user_message):
             return (
                 "Desculpe, sou especializado apenas em feiras literárias brasileiras. "
                 "Posso ajudar com informações sobre eventos, autores, datas, programação, "
-                "ingressos e curiosidades literárias do Brasil. 📚"
+                "ingressos e curiosidades literárias do Brasil."
             )
 
         processed_query = tokenize_for_bow(user_message)
@@ -71,11 +71,11 @@ class ChatLitera:
         if best_idx == -1:
             return (
                 "Hmm, não entendi bem. Você pode me perguntar sobre:\n"
-                "📅 Datas e edições de feiras\n"
-                "📍 Locais e cidades\n"
-                "🎤 Autores participantes\n"
-                "🎟️ Ingressos e preços\n"
-                "📋 Programação e atividades\n\n"
+                "Datas e edições de feiras\n"
+                "Locais e cidades\n"
+                "Autores participantes\n"
+                "Ingressos e preços\n"
+                "Programação e atividades\n\n"
                 "Exemplo: 'Quando é a Bienal do Rio?' ou 'Quanto custa o ingresso da FLIP?'"
             )
 
