@@ -1,4 +1,4 @@
-# ChatLitera 📚
+# ChatLitera 
 ### Chatbot Local sobre Feiras Literárias Brasileiras
 
 ---
@@ -113,20 +113,20 @@ Score ≥ 0.2?
 ## Exemplo de Uso
 
 ```
-📚 ChatLitera – Feiras Literárias Brasileiras 📚
+ ChatLitera – Feiras Literárias Brasileiras 
 
 Você: Quando é a FLIP?
 ChatLitera: A FLIP – Festa Literária Internacional de Paraty é realizada 
 geralmente em julho/agosto. Para as datas exatas desta edição, 
-consulte www.flip.org.br. 📅
+consulte www.flip.org.br. 
 
 Você: Quanto custa o ingresso da Bienal do Rio?
 ChatLitera: Os preços dos ingressos da Bienal do Rio de Janeiro variam a cada 
 edição. Em geral, há ingressos simbólicos (a partir de R$ 20,00) e costumam 
-existir dias ou atividades de entrada gratuita. Verifique em www.bienaldorio.com.br 🎟️
+existir dias ou atividades de entrada gratuita. Verifique em www.bienaldorio.com.br 
 
 Você: sair
-ChatLitera: Até logo! Continue participando das feiras literárias! 📖
+ChatLitera: Até logo! Continue participando das feiras literárias! 
 ```
 
 ---
